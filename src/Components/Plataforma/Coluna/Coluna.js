@@ -81,10 +81,10 @@ const CardColuna = (props) => {
                     <li className="Azul  ListaGrande "> {props.data.condições}</li>
                 </ul>
                 </div>
-
-                    <div className="Button">
+                <div className="Button">
                         <div className="StylePlan">{props.data.plano}</div>
-            </div>
+                    </div>
+                    
 
             </div>
         </div>
