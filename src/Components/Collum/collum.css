@@ -1,0 +1,264 @@
+.ContainerColunas {
+  width: 16%;
+  height: 100%;
+}
+.BoxOnee {
+  display: flex;
+  flex-direction: column;
+  justify-content: Space-between;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  border-bottom: 1px solid var(--Fourth);
+  border-top: 1px solid var(--Fourth);
+  border-left: 1px solid var(--Fourth);
+  border-right: 1px solid var(--Fourth);
+  border-radius: 2rem 2rem 0px 0px;
+}
+.Text_Headerr {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato;
+  font-weight: bold;
+  color: var(--Primary);
+  font-size: 1.5rem;
+}
+.BoxOnee > span {
+  padding-bottom: 1rem;
+  font-family: Lato;
+  font-weight: normal;
+  color: var(--Primary);
+  font-weight: regular;
+  font-size: 1.3rem;
+}
+.Economia {
+  color: rgb(31, 184, 48) !important;
+}
+.BoxTwoo {
+  width: 100%;
+  height: 6.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid var(--Fourth);
+  border-top: none;
+  border-bottom: none;
+}
+
+.boxConteudo {
+  width: 300%;
+  height: 31.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid var(--Fourth);
+}
+.boxConteudo > p {
+  font-family: lato;
+  font-weight: regular;
+  color: var(--Primary);
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.boxConteudo > div > span {
+  font-family: lato;
+  font-weight: bold;
+  border-bottom: 5px solid var(--Second);
+  font-size: 1.8rem;
+  color: var(--Primary);
+}
+.boxConteudo > div {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 2.5rem;
+}
+
+.link {
+  font-family: lato !important;
+  font-weight: bold !important;
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+.BoxTwoo > ul > li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: Lato;
+  font-weight: regular;
+  color: var(--Primary);
+}
+
+.BoxThreee {
+  width: 100%;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid var(--Fourth);
+  border-left: 1px solid var(--Fourth);
+  border-right: 1px solid var(--Fourth);
+  border-bottom: 1px solid var(--Fourth);
+}
+.BoxThreee > ul > li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: Lato;
+  font-weight: regular;
+  color: var(--Primary);
+}
+.BoxThreee > div {
+  color: var(--Primary);
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: lato;
+  font-weight: regular;
+  font-size: 1.2rem;
+}
+.BoxFourr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 12rem;
+  border-top: 1px solid var(--Fourth);
+  border-left: 1px solid var(--Fourth);
+  border-right: 1px solid var(--Fourth);
+  border-bottom: 1px solid var(--Fourth);
+}
+.BoxFourr > ul > li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: Lato;
+  font-weight: regular;
+  color: var(--Primary);
+}
+.Button {
+  margin-top: 2rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0px 0px 1.5rem 1.5rem;
+}
+.Button > div {
+  margin-top: 2rem;
+}
+.Button > div > button {
+  border-radius: 0.5rem;
+  font-family: Lato;
+  font-weight: regular;
+  border: none;
+  width: 12rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  background-color: var(--Primary);
+}
+.Button > div > button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.Button2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 1.5rem 1.5rem;
+}
+
+.StylePlan {
+  font-family: Lato;
+  font-weight: bold;
+  color: var(--Primary);
+  font-size: 1.2rem;
+}
+.Text_plan {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+  font-weight: bold !important;
+  font-size: 0.8rem !important;
+}
+.BoxSixthv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 236px;
+  border-top: 1px solid var(--Fourth);
+  border-left: 1px solid var(--Fourth);
+  border-right: 1px solid var(--Fourth);
+  border-bottom: 1px solid var(--Fourth);
+}
+.BoxSixthv > ul > li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: Lato;
+  font-weight: regular;
+  color: var(--Primary);
+}
+
+.BoxUltimo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 20% !important;
+  border: 1px solid var(--Fourth);
+  border-radius: 0px 0px 2rem 2rem;
+}
+
+.BoxUltimo > div > ul > li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: Lato;
+  font-weight: regular;
+  color: var(--Primary);
+}
+.redesSociais {
+  color: var(--Primary);
+  margin-left: 1.5rem;
+  font-size: 30px;
+}
+
+#Success {
+  color: rgb(0, 255, 0);
+}
+#Error {
+  color: rgb(255, 43, 43);
+}
+.StyleTeste {
+  width: 100%;
+  height: 200%;
+  background-color: red !important;
+}

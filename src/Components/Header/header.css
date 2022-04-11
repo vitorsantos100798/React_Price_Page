@@ -1,0 +1,32 @@
+.Btn {
+    font-family:lato;
+    font-weight: bold;
+    color: var(--Primary);
+    background-color: #7c92ab25;
+    width:25vw;
+    height:5vh;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.BtnOne{
+    font-family: Lato;
+    font-weight: bold;
+    color: var(--Primary);
+    background-color: #04f7f7;
+    width:25vw;
+    height:5vh;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.Btn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.BtnOne:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
