@@ -1,33 +1,13 @@
 .BoxContainerTablet{
     width:100%;
-    height:70%;
+    min-height:70%;
     display: flex;
 }
-.BotaoResponsivel{
-    width:100%;
-    height:16%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.BotaoResponsivel > button{
-    border: none;
-    width: 70%;
-    height:60%;
-    background-color:var(--Primary);
-    color:white;
-    font-family: Lato;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-}
-.BotaoResponsivel > button:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
+
+
 .Plano_center{
     width:100%;
-    height:5vh;
+    min-height:5vh;
     color: var(--Primary);
     font-family: lato;
     font-weight: bold;
@@ -38,7 +18,7 @@
 }
 .BoxPai{
     width: 50%;
-    height: 88.5%;
+    min-height: 88.5%;
     border-right: 1px solid var(--Fourth);
     display: flex;
     flex-direction: column;
@@ -46,7 +26,9 @@
     align-items:center;
     
 }
+
 .BoxPai > div {
+    padding-top: 2rem;
     width: 100%;
     display: flex;
     justify-content:center;
@@ -56,13 +38,14 @@
 }
 .BoxTio{
     width: 50%;
-    height: 88.5%;
+    min-height: 88.5%;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     align-items:center;
 }
 .BoxTio > div {
+    padding-top: 2rem;
     width: 100%;
     display: flex;
     justify-content:center;
@@ -77,3 +60,59 @@
 .MarginOne{
     margin-top: 1rem;
 }
+.Adicionais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.InfoAdicionais{
+    font-size: 1.2rem;
+    font-family: lato;
+    font-weight: bold;
+    color: var(--Primary);
+    border-bottom: 3px solid var(--Second);
+    margin-bottom: 1rem;
+}
+.InfoAdicionais > i {
+    margin-left: 5px;
+}
+
+.Adicionais > ul > div {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    font-family: Lato;
+    font-weight:bold;
+    height:2rem;
+    color: var(--Primary);
+}
+.Adicionais > ul > div > span {
+    border-bottom: 1px solid var(--Second);
+}
+.Adicionais > ul > li {
+    display: flex;
+    align-items: center;
+    height:1.7rem;
+   margin-left: 1rem;
+   font-family: Lato;
+   color: var(--Second);
+}
+.Adicionais > ul > li > span{
+    color: var(--Primary);
+    margin-right: 10px;
+}
+.Adicionais > ul > li > i {
+    font-size:1.2rem;
+    margin-left: 10px;
+}
+.Logo > i {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding-right: 0.6rem ;
+}
+
+/*---------------------------------------------*/
+
+
+  

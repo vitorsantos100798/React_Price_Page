@@ -13,13 +13,13 @@
     align-items: flex-start;
     justify-content: center;
     width: 100vw;
-    height: 220vh;
+    height: 225vh;
+  
 }
 .ContainerPlataforme{
     display: flex !important;
     justify-content: center;
     width: 100%;
-    height: 220vh;
 }
 .BorderNone{
     border: none !important;
@@ -41,6 +41,10 @@
     .BotaoResponsivel{
         display: none !important;
     }
+    .Adicionais{
+        display: none !important;
+    }
+
 }
 @media (max-width:1100px){
     .ContainerColunas{
@@ -56,7 +60,6 @@
         display: none;
     }
     .ContainerCollum{
-        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -79,7 +82,7 @@
     }
     .BoxDiv{
         width: 50%;
-        height: 500px;
+        min-height: 450px;
         border-radius: 2rem;
         margin-top:2rem;
         box-shadow: 0 0 6px 0 rgb(172 199 229 / 50%);
@@ -106,6 +109,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+    }
+    .Ideal_Style{
+        font-size: 0.7rem !important;
     }
     .Btn {
         width:70vw !important;
@@ -163,7 +169,7 @@
         justify-content:center;
         flex-direction:column !important;
         width: 300px !important;
-        height: 450px !important;
+        min-height: 450px !important;
         margin-top: 3rem !important;
     }
     .ContainerPlataforme{
@@ -178,6 +184,39 @@
         margin-top: 1rem !important;
         margin-bottom: 0.5rem !important;
         font-size: 1.2rem !important;
+    }
+
+
+
+    .Adicionais{
+        margin-top: 1.5rem !important;
+    }
+    .InfoAdicionais{
+        font-size: 0.8rem !important;
+    }
+    
+    .Adicionais > ul > div {
+        font-size: 0.7rem !important;
+    }
+    .Adicionais > ul > div > span {
+        border-bottom: 1px solid var(--Second);
+    }
+    .Adicionais > ul > li {
+        height:1.5rem !important;
+        font-size:0.6rem !important;
+    }
+    .Adicionais > ul > li > span{
+        color: var(--Primary);
+        margin-right: 10px;
+    }
+    .Adicionais > ul > li > i {
+        font-size:1rem !important;
+        margin-left: 6px !important;
+    }
+    .Logo > i {
+        font-size: 1rem !important;
+        margin-left: 2px !important;
+        padding-right: 0.2rem  !important;
     }
     
 }

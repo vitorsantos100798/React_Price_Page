@@ -386,7 +386,7 @@ const Main = () => {
                     <>
                     <div className="ContainerPlataforme">
                     <BoxResponsive table={table} valor={Valores2[valor][0]}   data={Coluna[0]}  />
-                      <BoxResponsive table={table} valor={Valores2[valor][1]}  data={Coluna[1]}  />
+                    <BoxResponsive table={table} valor={Valores2[valor][1]}  data={Coluna[1]}  />
                      <BoxResponsive table={table} valor={Valores2[valor][2]}  data={Coluna[2]}  />
                       <CardInfo/>
                      <CardColuna   valor={Valores2[valor][0]} data={Plataforma[0]}/>
