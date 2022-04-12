@@ -4,7 +4,7 @@
     color: var(--Primary);
     background-color: #7c92ab25;
     width:25vw;
-    height:5vh;
+    height:7vh;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
@@ -15,7 +15,7 @@
     color: var(--Primary);
     background-color: #04f7f7;
     width:25vw;
-    height:5vh;
+    height:7vh;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
