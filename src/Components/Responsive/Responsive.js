@@ -8,7 +8,7 @@ const BoxResponsive = (props) => {
         return value === true ? <i id="Success" class=" fa-solid fa-circle-check"></i> : <i id="Error" class="fa-solid fa-xmark"></i>
     }
 
-    const [showElement, setShowElement] = useState(false)
+    const [showElement, setShowElement] = useState(true)
     const showOrHide = () => setShowElement(!showElement)
     return (
         <>
@@ -64,7 +64,8 @@ const BoxResponsive = (props) => {
 
                       {props.data.estudio_criação} </li>{" "}
                   <li >
-                      <span>Automatização de postagens nas redes sociais:  </span>
+                      <span   
+                      >Automatização de postagens nas redes sociais:  </span>
                       <i class="fa-brands redesSociais fa-instagram"></i>
                       <i class="fa-brands redesSociais fa-facebook-f"></i>
                       <i class="fa-brands redesSociais fa-whatsapp"></i>

@@ -7,7 +7,7 @@ const ResponsivoPlataforma = (props) => {
         return value === true ? <i id="Success" class=" fa-solid fa-circle-check"></i> : <i id="Error" class="fa-solid fa-xmark"></i>
     }
 
-    const [showElement, setShowElement] = useState(false)
+    const [showElement, setShowElement] = useState(true)
     const showOrHide = () => setShowElement(!showElement)
     return (
         <>
