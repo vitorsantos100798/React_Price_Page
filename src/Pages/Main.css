@@ -102,7 +102,7 @@
 
 
 
-@media (max-width:570px){
+@media (max-width:820px){
     .ContainerCollum{
         width:100vw !important;
         display: flex;
@@ -210,7 +210,7 @@
         margin-right: 10px;
     }
     .Adicionais > ul > li > i {
-        font-size:1rem !important;
+        font-size:0.7rem !important;
         margin-left: 6px !important;
     }
     .Logo > i {
@@ -218,5 +218,13 @@
         margin-left: 2px !important;
         padding-right: 0.2rem  !important;
     }
+    .TextInfo{
+        font-size: 0.6rem !important;
+    }
+    .LinkAjuste > a {
+        font-size: 0.3rem !important;
+       margin-left: 5px !important;
+    }
+    
     
 }

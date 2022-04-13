@@ -8,6 +8,7 @@ import CardInfo from "../Components/Plataforma/Card Info/CardInfo";
 import CardColuna from "../Components/Plataforma/Coluna/Coluna.js";
 import BoxResponsive from "../Components/Responsive/Responsive.js";
 import Dropdown from "../Components/Dropdown/Dropdown.js";
+import ResponsivoPlataforma from "../Components/Plataforma/ResposivoPlataforma/ResposivoPlataforma"
 const Coluna = [
     {
         plano: "PADRÃO",
@@ -37,7 +38,7 @@ const Coluna = [
     },
     {
         plano: "AVANÇADO",
-        ideal_para: "Ideal apra quem já faz propaganda e ofertas e precisa aumentar a frequencia e o alcance das suas promoções e incentivar a recorrecia de compra dos clientes..",
+        ideal_para: "Ideal para quem já faz propaganda e ofertas e precisa aumentar a frequencia e o alcance das suas promoções e incentivar a recorrecia de compra dos clientes..",
         ações_semanais: 2,
         total_ações: 8,
         estudio_criação: "Ilimitado",
@@ -120,6 +121,9 @@ const Plataforma = [
         garantia_arrependimento: "7 dias",
         grantia_satisfacao: "N/A",
         condições: "",
+        tamanhofont: "0.8rem",
+        MargemdagarantiaTop: "30px",
+        MargemdagarantiaAzulBottom:"10px",
     },
     {
         plano: "AVANÇADO",
@@ -146,6 +150,10 @@ const Plataforma = [
         garantia_arrependimento: "7 dias",
         grantia_satisfacao: "Sim, nos modelos de contrato semestral e anual",
         condições:<>Confira regras e condições em<a href="https://datasales.io/garantiaplataforma">https://datasales.io/garantiaplataforma</a></> ,
+        tamanhofont: "0.8rem",
+        MargemdagarantiaTop: "60px",
+        tamanhofontCondiçoes:"0.8rem",
+        MargemdagarantiaAzulBottom:"40px",
     },
     {
         plano: "EXPERT",
@@ -172,6 +180,10 @@ const Plataforma = [
         garantia_arrependimento: "7 dias",
         grantia_satisfacao: "Sim, nos modelos de contrato semestral e anual",
         condições:<>Confira regras e condições em <a href="https://datasales.io/garantiaplataforma">https://datasales.io/garantiaplataforma</a>  </> ,
+        tamanhofont: "0.8rem",
+        MargemdagarantiaTop: "60px",
+        tamanhofontCondiçoes:"0.8rem",
+        MargemdagarantiaAzulBottom:"40px",
         
     },
 ]
@@ -385,10 +397,10 @@ const Main = () => {
                 ):(
                     <>
                     <div className="ContainerPlataforme">
-                    <BoxResponsive table={table} valor={Valores2[valor][0]}   data={Coluna[0]}  />
-                    <BoxResponsive table={table} valor={Valores2[valor][1]}  data={Coluna[1]}  />
-                     <BoxResponsive table={table} valor={Valores2[valor][2]}  data={Coluna[2]}  />
-                      <CardInfo/>
+                    <ResponsivoPlataforma table={table} valor={Valores2[valor][0] }  data={Plataforma[0]} />
+                    <ResponsivoPlataforma table={table} valor={Valores2[valor][0] }  data={Plataforma[1]} />
+                    <ResponsivoPlataforma table={table} valor={Valores2[valor][0] }  data={Plataforma[2]} />
+                     <CardInfo/>
                      <CardColuna   valor={Valores2[valor][0]} data={Plataforma[0]}/>
                      <CardColuna   valor={Valores2[valor][1]} data={Plataforma[1]}/>
                      <CardColuna   valor={Valores2[valor][2]} data={Plataforma[2]}/>
