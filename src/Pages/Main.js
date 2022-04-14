@@ -38,7 +38,7 @@ const Coluna = [
     },
     {
         plano: "AVANÇADO",
-        ideal_para: "Ideal para quem já faz propaganda e ofertas e precisa aumentar a frequencia e o alcance das suas promoções e incentivar a recorrecia de compra dos clientes..",
+        ideal_para: "Ideal para quem já faz propaganda e ofertas e precisa aumentar a frequência e o alcance das suas promoções e incentivar a recorrêcia de compra dos clientes.",
         ações_semanais: 2,
         total_ações: 8,
         estudio_criação: "Ilimitado",
@@ -68,7 +68,7 @@ const Coluna = [
     },
     {
         plano: "EXPERT",
-        ideal_para: "Melhor opção para quem crescer rápido e precisa manter ofertas com relevante frequencia.",
+        ideal_para: "Melhor opção para quem quer crescer rápido e precisa manter ofertas com relevante frequência.",
         ações_semanais: 3,
         total_ações: 12,
         estudio_criação: "Ilimitado",
@@ -127,7 +127,7 @@ const Plataforma = [
     },
     {
         plano: "AVANÇADO",
-        ideal_para: "Ideal apra quem já faz propaganda e ofertas e precisa aumentar a frequencia e o alcance das suas promoções e incentivar a recorrecia de compra dos clientes..",
+        ideal_para: "Ideal para quem já faz propaganda e ofertas e precisa aumentar a frequência e o alcance das suas promoções e incentivar a recorrêcia de compra dos clientes.",
         ações_semanais: 2,
         total_ações: 8,
         estudio_criação: "Ilimitado",
@@ -157,7 +157,7 @@ const Plataforma = [
     },
     {
         plano: "EXPERT",
-        ideal_para: "Melhor opção para quem crescer rápido e precisa manter ofertas com relevante frequencia.",
+        ideal_para: "Melhor opção para quem crescer rápido e precisa manter ofertas com relevante frequência.",
         ações_semanais: 3,
         total_ações: 12,
         estudio_criação: "Ilimitado",
