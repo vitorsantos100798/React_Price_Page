@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Preços de Serviços de Distribuição de Mídia Digital</title>
 </head>
 <body>
   <h1>Preços de Serviços de Distribuição de Mídia Digital</h1>
