@@ -1,4 +1,4 @@
-#🗏 Landing page de Serviços de Distribuição de Mídia Digital
+# 🗏 Landing page de Serviços de Distribuição de Mídia Digital
 
 Este é um projeto em React para a criação de uma página web
 que apresenta os preços de serviços de distribuição de mídia digital.
